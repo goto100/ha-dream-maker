@@ -1,0 +1,11 @@
+{
+  "domain": "dream_maker_aqara",
+  "name": "Dream Maker",
+  "codeowners": ["@goto100"],
+  "config_flow": true,
+  "dependencies": ["ha_aqara_devices"],
+  "documentation": "https://github.com/goto100/ha-dream-maker",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/goto100/ha-dream-maker/issues",
+  "version": "1.0.0"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "造梦者",
+  "config": {
+    "step": {
+      "user": {
+        "description": "选择在 Aqara Home 中关联了造梦者设备的账号。",
+        "data": { "source_entry_id": "Aqara Devices 账号" }
+      }
+    },
+    "abort": {
+      "already_configured": "这个账号已配置造梦者集成。",
+      "no_source": "请先添加或启用一个 Aqara Devices 账号。"
+    }
+  }
+}

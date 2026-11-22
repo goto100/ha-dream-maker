@@ -1,0 +1,15 @@
+{
+  "title": "Dream Maker",
+  "config": {
+    "step": {
+      "user": {
+        "description": "Select the Aqara Devices account linked to your Dream Maker devices.",
+        "data": { "source_entry_id": "Aqara Devices account" }
+      }
+    },
+    "abort": {
+      "already_configured": "Dream Maker is already configured for this account.",
+      "no_source": "Add or enable an Aqara Devices account first."
+    }
+  }
+}
