@@ -14,10 +14,12 @@
 
 1. 在 Aqara Home 中关联造梦者账号，确认能看到设备读数。
 2. 在 HA 中安装并配置 **Aqara Devices**，确认该账号的配置条目已加载。该集成的 v1.5.2 要求账号下至少有一个它原生支持的设备。[Aqara Devices 安装说明](https://github.com/Darkdragon14/ha-aqara-devices)
-3. 在 HACS 的「自定义仓库」中添加本仓库，类型选「集成」，然后下载 **Dream Maker**。手动安装时，将仓库中的 `custom_components/dream_maker_aqara` 复制到 HA 的 `/config/custom_components/`。[仓库地址](https://github.com/goto100/ha-dream-maker)
+3. 打开安装链接，在 HA 的 Marketplace（旧版为 HACS）中下载 **Dream Maker**。首次打开时，如果页面提示添加自定义仓库，选择「集成」。[在我的 Home Assistant 中打开造梦者](https://my.home-assistant.io/redirect/hacs_repository/?owner=goto100&repository=ha-dream-maker&category=integration)
 4. 重启 HA Core，在「设置 → 设备与服务 → 添加集成」中搜索「造梦者」或「Dream Maker」，再选择已有的 Aqara Devices 账号。
 
 账号新增支持的设备后，在 HA 中重新加载「造梦者」即可发现。
+
+手动安装时，将仓库中的 `custom_components/dream_maker_aqara` 复制到 HA 的 `/config/custom_components/`，然后执行第 4 步。
 
 ## 兼容性
 
